@@ -22,3 +22,4 @@ def solution(n):
             num -= set(range(i*2, n+1, i))
     
     return len(num)
+'''
