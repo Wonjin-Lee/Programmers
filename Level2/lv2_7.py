@@ -7,5 +7,4 @@ def solution(heights):
                 answer[i] = j+1
                 break
 
-
     return answer

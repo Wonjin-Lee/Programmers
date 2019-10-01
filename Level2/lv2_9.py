@@ -20,7 +20,7 @@ def solution(name):
         if s == init:
             break
         
-        for i in range(len(s)):
+        for i in range(1, len(s)):
             if s[idx + i] == "A":
                 move_right += 1
             else:
